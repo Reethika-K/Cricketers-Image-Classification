@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 10%;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.images_block{
+    display: flex;
+    width: 100%;
+    height: 15em;
+}
+.crick{
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    background-size: cover;
+}
+.klrahul{
+    background-image: url("klrahul.jpg");
+}
+.virat{
+    background-image: url("virat.png");
+}
+.rohit{
+    background-image: url("rohit.jpg");
+}
+.dhoni{
+    background-image: url("dhoni.jpg");
+}
+.bumrah{
+    background-image: url("bumrah.jpg");
+}
+.names_block{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+}
+.crickname{
+    height: 100%;
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.dragndrop{
+    margin-top: 2rem;
+    border: dashed;
+    height: 10rem;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dragndrop img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.output{
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    margin-top: 2rem ;
+}
+.outputvalue{
+    height: 100%;    
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    background-size: cover;
+}
+.outputname{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
